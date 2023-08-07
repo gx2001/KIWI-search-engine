@@ -1,0 +1,24 @@
+  				      ___________
+				     |Information|
+ 				      ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ ̅ 
+------------------------------------------------------------------------------------------						
+Argument[0]: You must give the name of the file. In this case you must give kiwi-bench.
+Argument[1]: You must give the name of the command that you want to use. read or write or readwrite.
+Argument[2]: You must give the number of the count. Always give a positive number.
+Argument[3]: You must give the number of the threads. Always give a positive number.
+Argument[4]: You must give the number r. Always give a positive number.
+Argument[5]: You must give the rate of the reads. Always give a positive number.
+Argument[6]: You must give the rate of the writes. Always give a positive number.
+
+Comment --> always (rate of the reads) + (rate of the writes) = 100%
+------------------------------------------------------------------------------------------	
+Execution example of a read command
+myy601@myy601lab1:~/kiwi/kiwi-source/bench$ ./kiwi-bench read 100000 20 1 70 30
+
+Execution example of a write command
+myy601@myy601lab1:~/kiwi/kiwi-source/bench$ ./kiwi-bench write 100000 30 1 80 20
+
+Execution example of a readwrite command
+myy601@myy601lab1:~/kiwi/kiwi-source/bench$ ./kiwi-bench readwrite 100000 40 1 90 10
+------------------------------------------------------------------------------------------	
+ 
